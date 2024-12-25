@@ -1,6 +1,10 @@
 # Sentimental-Analysis-on-Restaurant_Reviews-dataset
 This project focuses on performing Sentiment Analysis on a dataset of restaurant reviews, classifying each review as either positive or negative. By leveraging Natural Language Processing (NLP) and machine learning techniques, the project aims to analyze customer feedback and provide insights into their satisfaction levels.
-
+# Preprocessing Steps:
+Text cleaning
+Tokenization
+Stopword removal
+Vectorization (using techniques like TF-IDF or Bag of Words)
 # Key Features
 # Data Preprocessing:
 
@@ -9,11 +13,16 @@ Vectorization methods like Bag of Words or TF-IDF are used to convert the text i
 # Modeling:
 
 Various classification algorithms are employed, such as:
-Naive Bayes
-Logistic Regression
-Support Vector Machines (SVM)
+# Naive Bayes
+A probabilistic classifier used for its simplicity and efficiency in text classification.
+# Logistic Regression
+A linear model for binary classification tasks.
+# Support Vector Machines (SVM)
+ A powerful algorithm that finds the best boundary between classes.
+# K-Nearest Neighbors (KNN): 
+A simple, instance-based algorithm used for small datasets.
 The model is trained to predict the sentiment (positive or negative) for each review based on the text data.
-Performance Evaluation:
+# Performance Evaluation:
 
 The model’s effectiveness is assessed using metrics such as accuracy, precision, recall, and F1-score.
 The dataset is split into training and test sets to evaluate model performance and avoid overfitting.
